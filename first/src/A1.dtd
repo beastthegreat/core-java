@@ -1,0 +1,13 @@
+<!ELEMENT emails (note+)>
+<!ELEMENT note (to+,from,date,subject,contents)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT contents (attachments?,msg)>
+<!ELEMENT attachments (file+)>
+<!ELEMENT msg (#PCDATA)>
+<!ELEMENT file (#PCDATA)>
+<!ATTLIST note spam (yes|no) "no" important CDATA #REQUIRED>
+<!ENTITY IACSD "Institute of Advanced Computing and Software Development">
+                           

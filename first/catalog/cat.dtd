@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (cd+)>
+<!ELEMENT cd (country,title,artist,price,publications?)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT publications(name+)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT mytext "abc">
+<!ELEMENT mytext "xyz">
+<!ATTLIST name date data #required>
+<!ATTLIST name cd country CDATA #required>

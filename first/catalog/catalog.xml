@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <!DOCTYPE catalog SYSTEM "cat.dtd">
+  <catalog>
+    <cd country="UK"> 
+      <title>Dark Side of the Moon</title> 
+      <artist>Pink &mydata;Floyd</artist>
+      <price>10.90</price> 
+      
+    </cd> 
+    <cd country="USSR"> 
+        <title>Space Oddity</title> 
+        <artist>David Bowie</artist>
+        <price>9.90</price>
+        <publications>
+              <name date="22/11/2017">TechMedia</name>
+              <name date="22/11/2017">TechMax</name>
+              <name date="22/11/2017">Nirali</name>
+        </publications>
+    </cd> 
+    <cd country="USA"> 
+        <title>Aretha: Lady Soul</title> 
+        <artist>Aretha&mytext; Franklin</artist>
+        <price>9.90</price> 
+        <publications>
+              <name date="22/11/2017">TechMedia</name>
+              <name date="22/11/2017">TechMax</name>
+              <name date="22/11/2017">Nirali</name>
+        </publications>
+   </cd> 
+</catalog>
+
+
+
+
+
+
+
+
+
+
+

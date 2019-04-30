@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE emails SYSTEM "A1.dtd">
+<emails>
+   <note spam="no" important="aa">
+      <to>abc@gmail.com</to>
+      <to>xyz@gmail.com</to>
+      <to>pqr@gmail.com</to>
+      <from>kkk@gmail.com</from>
+      <date>22/10/2018</date>
+      <subject>This is subject</subject>
+      <contents>
+         <attachments>
+              <file>abc</file>
+              <file>pqr</file>
+         </attachments>
+         <msg>
+            This is message
+            as jshdkj kjhkjhdkjh
+             ahsdkjhskjhf
+         </msg>   
+      </contents>
+   </note>
+   <note spam="no" important="aa">
+      <to>abc@gmail.com</to>
+      <to>xyz@gmail.com</to>
+      <to>pqr@gmail.com</to>
+      <from>kkk@gmail.com</from>
+      <date>22/10/2018</date>
+      <subject>This is subject</subject>
+      <contents>
+         <attachments>
+              <file>abc</file>
+              <file>pqr</file>
+         </attachments>
+         <msg>
+            This is message
+            as jshdkj kjhkjhdkjh
+             ahsdkjhskjhf
+         </msg>   
+      </contents>
+   </note>
+</emails>
